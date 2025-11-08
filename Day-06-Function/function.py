@@ -11,7 +11,7 @@ def greet():
 greet()
 
 
-# 2️⃣ FUNCTION WITH PARAMETERS
+# 2FUNCTION WITH PARAMETERS
 
 def greet_user(name):
     print("Hello,", name, "nice to meet you!")
@@ -20,7 +20,7 @@ greet_user("ng24")  # Function call with argument
 
 
 
-# 3️⃣ FUNCTION WITH RETURN VALUE
+#  FUNCTION WITH RETURN VALUE
 
 
 def add_numbers(a, b):
@@ -31,7 +31,7 @@ sum_result = add_numbers(5, 10)
 print("Sum is:", sum_result)
 
 
-# 4️⃣ FUNCTION WITH DEFAULT PARAMETERS
+# FUNCTION WITH DEFAULT PARAMETERS
 
 
 def greet_with_message(name="Guest"):
@@ -42,7 +42,7 @@ greet_with_message("Parth")   # Overrides default value
 
 
 
-# 5️⃣ FUNCTION WITH MULTIPLE RETURN VALUES
+# FUNCTION WITH MULTIPLE RETURN VALUES
 
 
 def calculate(a, b):
@@ -60,7 +60,7 @@ print("Division:", results[3])
 
 
 
-# 6️⃣ FUNCTION WITH *ARGS (variable number of arguments)
+# FUNCTION WITH *ARGS (variable number of arguments)
 
 
 def show_students(*names):
@@ -71,7 +71,7 @@ def show_students(*names):
 show_students("Alice", "Bob", "Charlie", "Daisy")
 
 
-# 7️⃣ FUNCTION WITH **KWARGS (keyword arguments)
+# FUNCTION WITH **KWARGS (keyword arguments)
 
 
 def student_details(**info):
@@ -82,7 +82,7 @@ student_details(name="Parth", age=20, course="Python")
 
 
 
-# 8️⃣ NESTED FUNCTIONS (function inside another)
+#  NESTED FUNCTIONS (function inside another)
 
 
 def outer():
@@ -97,8 +97,7 @@ outer()
 
 
 # -----------------------------------------------
-# 9️⃣ LAMBDA (anonymous or one-line function)
-# -----------------------------------------------
+#  LAMBDA (anonymous or one-line function)
 
 # Syntax: lambda arguments : expression
 square = lambda x: x * x
@@ -110,8 +109,8 @@ print("Sum using lambda:", add(3, 7))
 
 
 # -----------------------------------------------
-# 🔟 RECURSIVE FUNCTION (function calling itself)
-# -----------------------------------------------
+# RECURSIVE FUNCTION (function calling itself)
+
 
 def factorial(n):
     if n == 1:

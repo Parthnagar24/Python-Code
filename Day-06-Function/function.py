@@ -1,10 +1,7 @@
-# -----------------------------------------------------------
-# 🧠 FUNCTIONS IN PYTHON - COMPLETE EXAMPLES WITH COMMENTS
-# -----------------------------------------------------------
 
-# -----------------------------------------------
-# 1️⃣ BASIC FUNCTION
-# -----------------------------------------------
+#  FUNCTIONS IN PYTHON
+
+
 
 # Defining a simple function (no parameters)
 def greet():
@@ -14,9 +11,7 @@ def greet():
 greet()
 
 
-# -----------------------------------------------
 # 2️⃣ FUNCTION WITH PARAMETERS
-# -----------------------------------------------
 
 def greet_user(name):
     print("Hello,", name, "nice to meet you!")
@@ -24,9 +19,9 @@ def greet_user(name):
 greet_user("ng24")  # Function call with argument
 
 
-# -----------------------------------------------
+
 # 3️⃣ FUNCTION WITH RETURN VALUE
-# -----------------------------------------------
+
 
 def add_numbers(a, b):
     result = a + b
@@ -36,9 +31,8 @@ sum_result = add_numbers(5, 10)
 print("Sum is:", sum_result)
 
 
-# -----------------------------------------------
 # 4️⃣ FUNCTION WITH DEFAULT PARAMETERS
-# -----------------------------------------------
+
 
 def greet_with_message(name="Guest"):
     print("Hello", name, "!")
@@ -47,9 +41,9 @@ greet_with_message()          # Uses default value
 greet_with_message("Parth")   # Overrides default value
 
 
-# -----------------------------------------------
+
 # 5️⃣ FUNCTION WITH MULTIPLE RETURN VALUES
-# -----------------------------------------------
+
 
 def calculate(a, b):
     add = a + b
@@ -65,9 +59,9 @@ print("Multiplication:", results[2])
 print("Division:", results[3])
 
 
-# -----------------------------------------------
+
 # 6️⃣ FUNCTION WITH *ARGS (variable number of arguments)
-# -----------------------------------------------
+
 
 def show_students(*names):
     print("Student List:")
@@ -77,9 +71,8 @@ def show_students(*names):
 show_students("Alice", "Bob", "Charlie", "Daisy")
 
 
-# -----------------------------------------------
 # 7️⃣ FUNCTION WITH **KWARGS (keyword arguments)
-# -----------------------------------------------
+
 
 def student_details(**info):
     for key, value in info.items():
@@ -88,9 +81,9 @@ def student_details(**info):
 student_details(name="Parth", age=20, course="Python")
 
 
-# -----------------------------------------------
+
 # 8️⃣ NESTED FUNCTIONS (function inside another)
-# -----------------------------------------------
+
 
 def outer():
     print("Inside outer function")
@@ -128,7 +121,3 @@ def factorial(n):
 
 print("Factorial of 5 =", factorial(5))
 
-
-# -----------------------------------------------
-# ✅ END OF FUNCTION EXAMPLES
-# -----------------------------------------------

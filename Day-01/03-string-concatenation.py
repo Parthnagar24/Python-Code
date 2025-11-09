@@ -4,7 +4,7 @@
 print("Hello"+"World")    # HelloWorld
 
 # Space 1 way:
-print("Hello "+"World")   # Hello World
+print("Hello "+"World")    # Hello World
 print("Hello "+" World")  # Hello  World
 print("Hello"+" World")   # Hello World
 

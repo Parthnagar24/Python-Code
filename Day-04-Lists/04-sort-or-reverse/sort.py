@@ -1,4 +1,4 @@
-fruits = ['B', 'A','C']
+fruits = [1, 6,4]
 print("Original list:", fruits)
 
 
